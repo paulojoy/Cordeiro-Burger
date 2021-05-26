@@ -65,6 +65,14 @@ h6 {
   opacity: 1;
 }
 
+@media screen and (max-width: 768px) {
+  .back-to-top {
+    display: none !important ;
+ 
+  }
+
+}
+
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
 --------------------------------------------------------------*/
@@ -113,6 +121,18 @@ h6 {
 
 .scrolled-offset {
   margin-top: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  #header .logo h1 {
+    display: none;
+    padding: 0 0 0 0;
+    
+  }
+
+  #header .logo img {
+    max-height: 40px;
+  }
 }
 
 
@@ -269,7 +289,7 @@ h6 {
 */
 .mobile-nav-toggle {
   color: #fff;
-  font-size: 32px;
+  font-size: 28px;
   cursor: pointer;
   display: none;
   line-height: 0;
@@ -1018,6 +1038,7 @@ section {
   background: url("../img/bg_4.jpg.webp") fixed center center;
   background-size: cover;
   padding: 60px 0;
+
 }
 
 #footer::before {
@@ -1134,3 +1155,4 @@ section {
   text-align: center;
   font-size: 13px;
 }
+
